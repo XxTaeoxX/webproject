@@ -1,7 +1,21 @@
+body {
+    background-color: cornflowerblue;
+}
+
 section {
-    background-color: lightblue;
+    background-color: royalblue;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     height: 50vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div {
+    background-color: cornsilk;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
 }
