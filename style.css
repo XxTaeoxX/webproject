@@ -2,20 +2,24 @@ body {
     background-color: cornflowerblue;
 }
 
+
+
 section {
     background-color: royalblue;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    height: 50vh;
+    justify-content: space-evenly;
+    height: 100vh;
     align-items: center;
     flex-wrap: wrap;
 }
 
+
+
 div {
     background-color: cornsilk;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 100;
     padding: 20px;
     text-align: center;
 }
